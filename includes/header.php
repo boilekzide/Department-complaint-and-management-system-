@@ -29,7 +29,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
         <?php if (isset($_SESSION['admin_id'])) { ?>
             <a href="/Department-complaint-and-management-system-/admin/dashboard.php">Admin</a>
-            <a href="/Department-complaint-and-management-system-/admin/manage_complaints.php">Manage</a>
+            <a href="/Department-complaint-and-management-system-/admin/manage_complaint.php">Manage</a>
             <a href="/Department-complaint-and-management-system-/admin/logout.php">Logout</a>
         <?php } ?>
 
