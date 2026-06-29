@@ -17,7 +17,7 @@ Departmental Complaint Management System
 
 <hr>
 
-<a href="student/registeration.php">
+<a href="student/registration.php">
 Student Registration
 </a>
 
