@@ -23,7 +23,7 @@ if (session_status() === PHP_SESSION_NONE) {
         <?php if (isset($_SESSION['student_id'])) { ?>
             <a href="/Department-complaint-and-management-system-/student/dashboard.php">Dashboard</a>
             <a href="/Department-complaint-and-management-system-/student/submit_complaint.php">Submit</a>
-            <a href="/Department-complaint-and-management-system-/student/view_complaints.php">My Complaints</a>
+            <a href="/Department-complaint-and-management-system-/student/view_complaint.php">My Complaints</a>
             <a href="/Department-complaint-and-management-system-/student/logout.php">Logout</a>
         <?php } ?>
 
