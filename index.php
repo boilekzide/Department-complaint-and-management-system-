@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="logo-box">
-        <img src="logo.png" alt="School Logo">
+        <img src="assets/logo.png" alt="School Logo">
         <h1>Official Student Complaint system</h1>
     </div>
 <h1>
