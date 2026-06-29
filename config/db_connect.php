@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "complaint_system";
+$database = "complaint_system2";
 
 $conn = mysqli_connect(
     $host,
