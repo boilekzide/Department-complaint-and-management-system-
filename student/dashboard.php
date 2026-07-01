@@ -9,9 +9,9 @@ if (!isset($_SESSION['student_id'])) {
 <h2>Welcome <?php echo $_SESSION['fullname']; ?></h2>
 
 <ul>
-    <li><a href="/departmentcomplaintsystem(blueprint)/student/submit_complaint.php">Submit Complaint</a></li>
-    <li><a href="/departmentcomplaintsystem(blueprint)/student/view_complaints.php">View Complaints</a></li>
-    <li><a href="/departmentcomplaintsystem(blueprint)/student/track_complaint.php">Track Complaint</a></li>
-    <li><a href="/departmentcomplaintsystem(blueprint)/student/logout.php">Logout</a></li>
+    <li><a href="/Department-complaint-and-management-system-/student/submit_complaint.php">Submit Complaint</a></li>
+    <li><a href="/Department-complaint-and-management-system-/student/view_complaints.php">View Complaints</a></li>
+    <li><a href="/Department-complaint-and-management-system-/student/track_complaint.php">Track Complaint</a></li>
+    <li><a href="/Department-complaint-and-management-system-/student/logout.php">Logout</a></li>
 </ul>
 <?php include "../includes/footer.php"; ?>
