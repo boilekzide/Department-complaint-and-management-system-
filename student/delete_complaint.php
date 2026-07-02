@@ -6,7 +6,7 @@ $id = $_GET['id'];
 $sql = "DELETE FROM complaints WHERE id='$id'";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Deleted successfully. <a href='view_complaints.php'>Back</a>";
+    echo "Deleted successfully. <a href='view_complaint.php'>Back</a>";
 } else {
     echo "Error deleting record.";
 }  

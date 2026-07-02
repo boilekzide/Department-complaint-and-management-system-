@@ -2,6 +2,10 @@
 include "../config/db_connect.php";
 include "../includes/header.php";
 
+if (!isset($_GET['id'])) {
+    die("Complaint ID not provided.");
+}
+
 $id = (int) $_GET['id'];
 
 $query = mysqli_query($conn, "SELECT * FROM complaints WHERE id='$id'");
@@ -9,8 +13,8 @@ $data = mysqli_fetch_assoc($query);
 
 if (isset($_POST['update'])) {
 
-    $title = $_POST['title'];
-    $description = $_POST['description'];
+    $title = mysqli_real_escape_string($conn, $_POST['title']);
+    $description = mysqli_real_escape_string($conn, $_POST['description']);
 
     $sql = "UPDATE complaints 
             SET title='$title', description='$description'
@@ -18,7 +22,8 @@ if (isset($_POST['update'])) {
 
     mysqli_query($conn, $sql);
 
-    echo "Updated successfully.";
+    header("Location: view_complaint.php");
+    exit();
 }
 ?>
 
