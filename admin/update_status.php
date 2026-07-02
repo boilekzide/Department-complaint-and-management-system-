@@ -22,7 +22,7 @@ if (isset($_POST['update'])) {
 
     if (mysqli_query($conn, $sql)) {
         echo "Status updated successfully. 
-        <a href='manage_complaints.php'>Go back</a>";
+        <a href='manage_complaint.php'>Go back</a>";
     } else {
         echo "Error updating status.";
     }
