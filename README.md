@@ -71,7 +71,7 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Department-Complaint-and-Management-System.git
+git clone https://github.com/boilekzide/Department-complaint-and-management-system-.git
 ```
 
 Or download the project as a ZIP file and extract it.
