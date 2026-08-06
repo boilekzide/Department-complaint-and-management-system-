@@ -33,7 +33,14 @@ body {
 
 /* CONTAINER */
 .container {
-    padding: 20px;
+  width: 90%;
+  max-width: 610px;
+  margin: 80px auto;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
 /* FORMS */
